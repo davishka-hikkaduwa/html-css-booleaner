@@ -1,0 +1,7 @@
+header {
+    background-color: blue;
+    text-align: left;
+    background-image: url("../img/pattern.png");
+    background-repeat: repeat-x;
+    background-size: contain;
+}
