@@ -1,7 +1,65 @@
+/* css reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* /css reset */
+
+/* logo and background */
+#logo {
+    height: 75px;
+}
+
 header {
-    background-color: blue;
-    text-align: left;
     background-image: url("../img/pattern.png");
-    background-repeat: repeat-x;
-    background-size: contain;
+    background-color: #4ea0ff;
+    background-size: 340px;
+}
+
+/* /logo and background */
+
+/* title and author */
+main {
+    padding: 20px 5px;
+    margin: 10px;
+}
+
+.article-info {
+    color: #666;
+
+}
+
+#author {
+    color: #4ea0ff;
+}
+
+/* /title and author */
+
+#article-image {
+    height: 300px;
+}
+
+p {
+    padding: 20px 0px;
+}
+
+table {
+    width: 90%;
+}
+
+th,
+tr {
+    width: 30%;
+    text-align: left;
+
+}
+
+th {
+    background-color: #20A9E5;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #B1E5F2;
 }
